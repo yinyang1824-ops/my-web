@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background-color:black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.logo{
+    background-image: url(netflixlogo.jpg);
+    height: 36px;
+    width: 11%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px  20px  15px;
+
+}
+nav a{
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+nav h1{
+    color: brown;
+    padding-top: 17.5px;
+    margin-right: 40vw;
+}
+.card{
+    width: 80vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.hero{
+    width: 45%;
+    height: 62%;
+}
+
+.image{
+    width: 17rem;
+    height: 27em;
+}
+
+.card2{
+    width: 80vw;
+    height: 50vh;
+    justify-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: antiquewhite;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card2 table{
+    width: auto;
+    height: auto;
+    align-items: center;
+    table-layout: fixed;
+    padding: 30px;
+    
+}
+.card2 th, .card2 td{
+    width: 25%;
+    text-align: center;
+}
+table {
+    margin-top: 30px;
+}
+
+.card3{
+    width:80vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.card3 p{
+    font-size: 20px;
+}
+
+.last{
+     background-color:black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+.last img{
+    width: 20px;
+    height: 20px;
+}
